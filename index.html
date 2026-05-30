@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Mini Projects</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Mini Projects</h1>
+
+      <p class="author">Created & Developed by Faizan Malik</p>
+
+      <!-- Poll Project -->
+
+      <div class="card">
+        <h2>JavaScript Poll</h2>
+
+        <h3 id="heading">Is JavaScript Easy?</h3>
+
+        <div class="btn-group">
+          <button class="yes" id="yesBtn">Yes</button>
+
+          <button class="no" id="noBtn">No</button>
+        </div>
+      </div>
+
+      <!-- QR Generator -->
+
+      <div class="card">
+        <h2>QR Code Generator</h2>
+
+        <input type="text" id="qrText" placeholder="Enter URL or Text" />
+
+        <button class="generate-btn" onclick="generateQRCode()">
+          Generate QR Code
+        </button>
+
+        <div id="qrcode"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
